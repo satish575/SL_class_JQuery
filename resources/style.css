@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+#dialog{
+    background-color: rgb(60, 65, 154);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+input[type=text]{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-left: 10px;
+    
+}
+#dialog label{
+    color: white;
+}
+input[type=password]{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-left: 10px;
+    
+}
+#datepicker{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dateOfGraduation{
+    display: flex;
+    align-items: center;
+}
+#progressbar{
+    width: 200px;
+    background-color: black;
+}
+.accordionInner{
+    background-color: blueviolet;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#accordion{
+    background-color: gray;
+    width: 50%;
+    height: auto;
+}
+
+#accordion h3{
+      color: white;
+      background-color: gray;
+      border: none;
+}
+.accordionInner div{
+    background-color: rgb(75, 11, 135);
+}
